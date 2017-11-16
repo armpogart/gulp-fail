@@ -1,0 +1,20 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "sourceType": "module"
+  },
+  "env": {
+    "browser": true,
+    "jquery": true,
+    "es6": true
+  },
+  "extends": ["eslint:recommended", "google"],
+  "rules": {
+    // Additional, per-project rules
+    "max-len": [
+      "error", {
+        "ignoreTemplateLiterals": true
+      }
+    ]
+  }
+}
